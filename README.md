@@ -81,4 +81,8 @@ HR Analytics Dashboard
 - Employees belongs to ***Laboratory Technician***, ***Sales Executive*** and ***Research Scientist*** job roles have the **highest** attrition rate.
 - Age group of `18-39` have the **maximum** attrition rate.
 - Most of the employees having monthly income `< 5k` left the company.
-- Attrition rate for employees who got salary hike between `11-15%` is higher.
+- Attrition rate for employees who got salary hike between `11-15%` is **higher**.
+- Employees who are having the same role from last `0-10 years` are having the **highest** attrition count.
+- Attrition rate is **higher** if employee didn't get promotion.
+
+
