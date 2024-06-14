@@ -21,15 +21,13 @@ The data is in the form of excel file with `33 columns` and `1470 records`.
 
 ## Data Preparation
   1. Create Dataset
- </br>
   2. Import dataset into SQL SERVER
-</br>
   3. Understanding the data :
       After collecting the data it is very important to know the data and understanding what has to be done to get meaningful insights.
- </br>
+
   4. Data Cleaning :
      In this step we examine the data to check for any null or duplicate values. If it is there then we remove those values using appropriate strategies.
- </br>
+
   5. Creation of new columns from existing ones :
      - Added new column as `age_group`.
      - Added new column as `monthly_income_group`.
