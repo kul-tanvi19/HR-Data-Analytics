@@ -5,9 +5,8 @@
   - [Problem Statement](#Problem-Statement)
   - [Datasource](#Datasource)
   - [Data Preparation](#Data-Preparation)
-  - [Data Analysis](#Data-Analysis)
   - [Data Modeling](#Data-Modeling)
-  - 
+  - [Data Analysis](#Data-Analysis)
   - [Data Visualization](#Data-Visualization)
   - [Insights](#Insights)
 
@@ -47,12 +46,25 @@ Once EDA part is done, we connect SQL Server to Power BI for creating the dashbo
 ![image](https://github.com/kul-tanvi19/HR-Data-Analytics/assets/172184420/9e1d926a-4cd0-41cf-bfbe-3bcd52455a28)
 
 
+## Data Analysis
+  - Possible KPIs to monitor employee performance and retention : 
+     - Employee Count
+     - Attrition Count
+     - Attrition Rate
+     - Average Percentage of Salary Hike
 
+  - Dax measures used :
+     - Total Employees = `COUNTROWS(HR_Data)`.
+     - Attrition Count = `CALCULATE(COUNT(HR_Data[Employee Number]), FILTER(HR_Data, HR_Data[Attrition] = "yes"))`.
+     - Attrition Rate = `DIVIDE([Attrition Count], [Total Employees],0)`.
+     - Avg % Salary Hike = `AVERAGE(HR_Data[Percent Salary Hike]) / 100`.
 
+  - Filters used :
+     - Filter HR report by `Gender`.
+     - Filter HR report by `Department`
+   
 
-based on possible KPIs to monitor employee performance and retention.
-    - Possible KPIs include :
-       - Employee Count
-       - Attrition Count
-       - Attrition Rate
-       - Average Percentage of Salary Hike 
+## Data Visualization
+HR Analytics Dashboard
+
+![image](https://github.com/kul-tanvi19/HR-Data-Analytics/assets/172184420/ad7af802-4dd5-41b4-9077-21ed7ba751dc)
