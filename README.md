@@ -23,7 +23,7 @@ The data is in the form of excel file with `33 columns` and `1470 records`.
   1. Create Dataset
   2. Import dataset into SQL SERVER
   3. Understanding the data :
-      After collecting the data it is very important to know the data and understanding what has to be done to get meaningful insights.
+     After collecting the data it is very important to know the data and understanding what has to be done to get meaningful insights.
 
   4. Data Cleaning :
      In this step we examine the data to check for any null or duplicate values. If it is there then we remove those values using appropriate strategies.
