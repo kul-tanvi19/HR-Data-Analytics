@@ -5,8 +5,8 @@
   - [Problem Statement](#Problem-Statement)
   - [Datasource](#Datasource)
   - [Data Preparation](#Data-Preparation)
-  - [Data Modeling](#Data-Modeling)
   - [Data Analysis](#Data-Analysis)
+  - [Data Modeling](#Data-Modeling)
   - [Data Visualization](#Data-Visualization)
   - [Insights](#Insights)
 
@@ -33,4 +33,24 @@ The data is in the form of excel file with `33 columns` and `1470 records`.
   5. Creation of new columns from existing ones :
      - Added new column as `age_group`.
      - Added new column as `monthly_income_group`.
-     - Added new column as `perc_sal_hike_range` which contains range of percentage of salary hike given to employees. 
+     - Added new column as `perc_sal_hike_range` which contains range of percentage of salary hike given to employees.
+
+   
+## Data Analysis
+Conducting exploratory data analysis to identify which factors afffect the most on the attrition using SQL.
+
+
+## Data Modeling
+Once EDA part is done, we connect SQL Server to Power BI for creating the dashboard. After that the data is ready for modeling.
+
+![image](https://github.com/kul-tanvi19/HR-Data-Analytics/assets/172184420/abca80dd-79ab-402c-bc59-56102ecdf5ef)
+
+
+
+
+based on possible KPIs to monitor employee performance and retention.
+    - Possible KPIs include :
+       - Employee Count
+       - Attrition Count
+       - Attrition Rate
+       - Average Percentage of Salary Hike 
