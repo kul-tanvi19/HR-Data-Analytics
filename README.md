@@ -7,6 +7,7 @@
   - [Data Preparation](#Data-Preparation)
   - [Data Analysis](#Data-Analysis)
   - [Data Modeling](#Data-Modeling)
+  - 
   - [Data Visualization](#Data-Visualization)
   - [Insights](#Insights)
 
@@ -35,9 +36,9 @@ The data is in the form of excel file with `33 columns` and `1470 records`.
      - Added new column as `monthly_income_group`.
      - Added new column as `perc_sal_hike_range` which contains range of percentage of salary hike given to employees.
 
-   
-## Data Analysis
-Conducting exploratory data analysis to identify which factors afffect the most on the attrition using SQL.
+  6. EDA :
+     <br>
+     Conducting exploratory data analysis to identify which factors afffect the most on the attrition using SQL.
 
 
 ## Data Modeling
