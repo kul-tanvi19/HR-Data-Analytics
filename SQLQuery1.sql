@@ -198,7 +198,7 @@ from HR_Data
 where Attrition = 'yes' 
 group by age_group
 
-	-- Age group of 18-29 and 30-39 have the maximum attrition counts for those employees who have been working in the company from last 1 year.
+	-- Age group of 18-29 and 30-39 have the maximum attrition counts
 
 
 -- 10. Relation between distance from home and attrition
