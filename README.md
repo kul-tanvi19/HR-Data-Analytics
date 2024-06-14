@@ -43,7 +43,8 @@ Conducting exploratory data analysis to identify which factors afffect the most 
 ## Data Modeling
 Once EDA part is done, we connect SQL Server to Power BI for creating the dashboard. After that the data is ready for modeling.
 
-![image](https://github.com/kul-tanvi19/HR-Data-Analytics/assets/172184420/abca80dd-79ab-402c-bc59-56102ecdf5ef)
+![image](https://github.com/kul-tanvi19/HR-Data-Analytics/assets/172184420/9e1d926a-4cd0-41cf-bfbe-3bcd52455a28)
+
 
 
 
