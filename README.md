@@ -68,3 +68,17 @@ Once EDA part is done, we connect SQL Server to Power BI for creating the dashbo
 HR Analytics Dashboard
 
 ![image](https://github.com/kul-tanvi19/HR-Data-Analytics/assets/172184420/ad7af802-4dd5-41b4-9077-21ed7ba751dc)
+
+
+## Insights
+- Total Employees = `1470`
+- Attrition Count = `237`
+- Attrition Rate = `16%`
+- Average Percentage of Salary Hike = `15%`
+- Most of the employees from ***R&D*** department left the company.
+- Attrition rate is **higher** among employees in the ***Life Sciences*** and ***Medical*** education fields.
+- Based on gender and marital status, attrition rate for ***Male*** is **higher** as compared to Female.
+- Employees belongs to ***Laboratory Technician***, ***Sales Executive*** and ***Research Scientist*** job roles have the **highest** attrition rate.
+- Age group of `18-39` have the **maximum** attrition rate.
+- Most of the employees having monthly income `< 5k` left the company.
+- Attrition rate for employees who got salary hike between `11-15%` is higher.
